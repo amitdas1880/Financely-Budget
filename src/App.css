@@ -1,0 +1,25 @@
+.wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  height: 90vh;
+}
+
+.charts-wrapper{
+  display: flex;
+  width: 99%;
+  justify-content:space-around;
+  box-shadow: var(--shadow);
+  border-radius: 0.5rem;
+  margin: 1rem 0rem;
+  padding-top: 1rem;
+}
+
+.chart-component{
+  display:flex;
+  width:100%;
+  box-shadow: var(--shadow) ;
+  justify-content:space-around;
+  margin: 2rem 0rem;
+}
